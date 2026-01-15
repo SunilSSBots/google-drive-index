@@ -85,7 +85,7 @@ const uiConfig = {
     "logo_height": "50px",
     "logo_width": "auto",
     "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.3/images/favicon.ico",
-    "logo_link_name": "",
+    "logo_link_name": "https://i.ibb.co/XrHv2xph/Lucid-Origin-Create-a-modern-tech-You-Tube-channel-logo-Theme-We-0.png",
     "login_image": "https://files.catbox.moe/li4oys.jpg",
     "fixed_header": true,
     "header_padding": "80",
