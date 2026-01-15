@@ -102,7 +102,26 @@ credentials.json
 
 ---
 
-## 🟢 STEP 2 — Clone the Repository
+## 🟢 STEP 2 - How To Generate Token Pickle With Android Easily After Google Auth2.0 New policy update and How to create client id, client secret, refresh token for cloudflare . Without any kind of error.
+
+1. Install Termux F-Droid
+2. Open Termux and just copy paste all the commands that described below, Make sure you have internet connection. if you see Y/n then Type y.
+
+```bash
+apt update && apt upgrade -y && pkg install git -y && pkg install python -y && apt update && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib && pip install --upgrade pip
+```
+
+2.1 ERROR: Installing pip is forbidden, this will break the python-pip package (termux)
+If you get this error, you need to run the following command:
+
+```bash
+curl -sS https://bootstrap.pypa.io/get-pip.py | python
+```
+
+Now run command number 2 again. Hopefully no error will appear.
+
+
+ # Clone the Repository
 
 ```bash
 git clone https://github.com/SunilSSBots/google-drive-index
