@@ -20,10 +20,10 @@ const LOG_PREFIX = 'LOG:';
 const ADMIN_KEY = 'ADMIN_USERS';
 
 const authConfig = {
-    "siteName": "SS Bots", // Website name
-    "client_id": "e.apps.googleusercontent.com", // Client id from Google Cloud Console
-    "client_secret": "", // Client Secret from Google Cloud Console
-    "refresh_token": "sQAs3eQgu-M", // Authorize token - Get from OAuth Playground
+    "siteName": "SS Bots", // Your Custom Website name
+    "client_id": "", // Your Client id from Google Cloud Console
+    "client_secret": "", // Your Client Secret from Google Cloud Console
+    "refresh_token": "", // Your Authorize token - Get from OAuth Playground
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
     "files_list_page_size": 100,
@@ -62,7 +62,7 @@ const authConfig = {
     ],
     "roots": [
         {
-            "id": "1OjYV0qbs4bWjhYAIu0hWOPXzNkfeKvAT", // Get from Google Drive folder URL
+            "id": "", // Get from Google Drive folder URL
             "name": "SSBot",
             "username": "", "password": "", // Optional folder-level auth
             "protect_file_link": false
@@ -85,7 +85,7 @@ const uiConfig = {
     "logo_height": "50px",
     "logo_width": "auto",
     "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.3/images/favicon.ico",
-    "logo_link_name": "https://cdn.jsdelivr.net/gh/shohan-001/Gdrive-Index@93879490cc17773db86f235553e0346356db0b2a/IndexPageLogo.png",
+    "logo_link_name": "",
     "login_image": "https://files.catbox.moe/li4oys.jpg",
     "fixed_header": true,
     "header_padding": "80",
@@ -106,8 +106,8 @@ const uiConfig = {
     "file_count_alert_class": "alert alert-secondary",
     "contact_link": "/contact",
     "copyright_year": "2025",
-    "company_name": "YOUR_COMPANY_NAME",
-    "company_link": "YOUR_COMPANY_URL",
+    "company_name": "Sunil Web Tricks",
+    "company_link": "https://www.youtube.com/@SunilWebTricks",
     "credit": false,
     "display_size": true,
     "display_time": false,
@@ -1154,7 +1154,7 @@ function html(current_drive_order = 0, model = {}) {
   <nav class="navbar navbar-expand-lg${uiConfig.fixed_header ? ' fixed-top' : ''} ${uiConfig.header_style_class}" id="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <img src="https://cdn.jsdelivr.net/gh/shohan-001/Gdrive-Index@93879490cc17773db86f235553e0346356db0b2a/IndexPageLogo.png" alt="${authConfig.siteName}">
+        <img src="" alt="${authConfig.siteName}">
         <span>${authConfig.siteName}</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -2303,7 +2303,7 @@ const homepage = `<!DOCTYPE html>
                 <a href="/" class="footer-link">Home</a>
                 <a href="/about" class="footer-link">About</a>
                 <a href="${uiConfig.contact_link}" target="_blank" class="footer-link">Contact</a>
-                <a href="https://github.com/shohan-001/enhanced-gdrive-index" target="_blank" class="footer-link">GitHub</a>
+                <a href="https://github.com/" target="_blank" class="footer-link">GitHub</a>
             </div>
             <p class="footer-text" style="opacity: 0.7;">
                 Powered by <a href="https://www.npmjs.com/package/@googledrive/index" target="_blank">GDI</a>
@@ -5503,7 +5503,7 @@ const aboutus_html = `<!DOCTYPE html>
                     </div>
                     <div class="contact-info">
                         <h4>GitHub Repository</h4>
-                        <p><a href="https://github.com/shohan-001/enhanced-gdrive-index" target="_blank">github.com/shohan-001/Gdrive-Index</a></p>
+                        <p><a href="https://github.com/" target="_blank">SSBots Drive-Index</a></p>
                     </div>
                 </div>
 
@@ -5513,7 +5513,7 @@ const aboutus_html = `<!DOCTYPE html>
                     </div>
                     <div class="contact-info">
                         <h4>Telegram Support</h4>
-                        <p><a href="https://t.me/Shohan_max" target="_blank">@Shohan_max</a></p>
+                        <p><a href="https://t.me/Sunil_Sharma_2_0" target="_blank">Sunil Sharma 2.O</a></p>
                     </div>
                 </div>
 
@@ -5669,7 +5669,7 @@ const aboutus_html = `<!DOCTYPE html>
             <a href="/" class="footer-link">Home</a>
             <a href="/about" class="footer-link">About</a>
             <a href="/contact" class="footer-link">Contact</a>
-            <a href="https://github.com/shohan-001/enhanced-gdrive-index" target="_blank" class="footer-link">GitHub</a>
+            <a href="" target="_blank" class="footer-link">GitHub</a>
         </p>
         <p style="margin-top: 15px; font-size: 0.85rem;">
             Built with using Cloudflare Workers & Google Drive API
@@ -6275,11 +6275,11 @@ const contact_html = `<!DOCTYPE html>
             <div class="contact-info-card">
                 <h2 class="info-title">Other Ways to Reach Us</h2>
                 
-                <a href="https://t.me/Shohan_max" target="_blank" class="contact-method">
+                <a href="https://t.me/Sunil_Sharma_2_0" target="_blank" class="contact-method">
                     <div class="method-icon"><i class="bi bi-telegram"></i></div>
                     <div class="method-info">
                         <h4>Telegram</h4>
-                        <p>@Shohan_max</p>
+                        <p>Sunil Sharma 2.O</p>
                     </div>
                 </a>
                 
@@ -6299,7 +6299,7 @@ const contact_html = `<!DOCTYPE html>
                     </div>
                 </a>
                 
-                <a href="https://github.com/shohan-001/enhanced-gdrive-index" target="_blank" class="contact-method">
+                <a href="https://github.com/" target="_blank" class="contact-method">
                     <div class="method-icon"><i class="bi bi-github"></i></div>
                     <div class="method-info">
                         <h4>GitHub</h4>
@@ -6321,7 +6321,7 @@ const contact_html = `<!DOCTYPE html>
             <a href="/" class="footer-link">Home</a>
             <a href="/about" class="footer-link">About</a>
             <a href="/contact" class="footer-link">Contact</a>
-            <a href="https://github.com/shohan-001/enhanced-gdrive-index" target="_blank" class="footer-link">GitHub</a>
+            <a href="" target="_blank" class="footer-link">GitHub</a>
         </div>
         <p class="footer-text">&copy; ${uiConfig.copyright_year} ${authConfig.siteName}. All rights reserved.</p>
     </footer>
