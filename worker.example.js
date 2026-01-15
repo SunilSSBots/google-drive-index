@@ -34,8 +34,8 @@ const authConfig = {
     "disable_anonymous_download": false, // disables direct links without session
     "file_link_expiry": 365, // expire file link in set number of days
     "search_all_drives": true, // search all of your drives instead of current drive if set to true
-    "enable_login": true, // set to true if you want to add login system
-    "enable_signup": true, // set to true if you want to add signup system
+    "enable_login": false, // set to true if you want to add login system
+    "enable_signup": false, // set to true if you want to add signup system
     "enable_social_login": false, // set to true if you want to add social login system
     "google_client_id_for_login": "", // Google Client ID for Login
     "google_client_secret_for_login": "", // Google Client Secret for Login
