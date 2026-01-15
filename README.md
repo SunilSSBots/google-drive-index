@@ -280,4 +280,6 @@ You are responsible for complying with Google and Cloudflare terms.
 
 ✨ **Built for developers who want control, clarity, and simplicity.** ✨
 
+💫 All Credits Goes To https://github.com/shohan-001/enhanced-gdrive-index To Enhance & Modify Official Parveen Bhadoo's GDI.💫
+
 </div>
