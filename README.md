@@ -36,6 +36,9 @@ No panels.
 No paid services.  
 Full control in your hands.
 
+### Tutorial Video 
+https://youtu.be/Y4sVRZRvM6w
+
 ---
 
 ## 📁 Repository Structure
